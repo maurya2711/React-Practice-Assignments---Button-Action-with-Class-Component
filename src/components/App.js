@@ -10,7 +10,7 @@ class App extends Component {
 
   para() {
     this.setState({
-      isClicked: true
+      isClicked: !this.state.isClicked
     });
   }
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
           Click Me!!!
         </button>
         {this.state.isClicked && (
-          <p>
+          <p id="para">
             Hello, I've learnt to use the full-stack evaluation tool. This makes
             me so happy
           </p>
