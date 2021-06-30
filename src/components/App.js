@@ -19,12 +19,12 @@ class App extends Component {
         <button id="click" onClick={this.para}>
           Click Me!!!
         </button>
-        {this.state.isClicked ? (
+        {this.state.isClicked && (
           <p>
             Hello, I've learnt to use the full-stack evaluation tool. This makes
             me so happy
           </p>
-        ) : null}
+        )}
       </div>
     );
   }
