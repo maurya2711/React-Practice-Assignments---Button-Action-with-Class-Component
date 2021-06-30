@@ -10,7 +10,7 @@ class App extends Component {
 
   para() {
     this.setState({
-      isClicked: !this.state.isClicked
+      isClicked: true
     });
   }
   render() {
